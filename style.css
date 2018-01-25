@@ -81,6 +81,10 @@ tr:nth-child(even) {
     background-color: olive;
 }
 
+button{
+    color: coral;
+}
+
 footer{
     background-color: lightyellow;
     color: darkblue;
