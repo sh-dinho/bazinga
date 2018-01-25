@@ -8,10 +8,13 @@ header{
     background-color: gold;
 }
 
-li a{
+#menu-list{
+    text-align: center;
+}
+
+#menu-list li a{
     display: block;
     color: white;
-    text-align: center;
     padding: 20px;
     text-decoration: none;
 }
@@ -20,6 +23,70 @@ a:hover {
     background-color: red;
 }
 
-li{
+#menu-list li{
     display: inline-block;
+}
+section{
+    border-left: 2px solid darkcyan;
+    margin-left: 220px;
+    padding: 2em;
+    overflow: hidden;
+}
+
+img{
+    width: 42%;
+    height: 80%;
+    float: right;
+}
+body{
+    background-color: greenyellow;
+    padding: auto;
+    width: 100%;
+    /*background-image: url("field.jpeg");*/
+}
+
+section article#list{
+    float: left;
+    margin: 0 2px;
+    width: 70%;
+}
+
+aside{
+    display: table-cell;
+    width: 15%;
+    margin: 2px;
+    padding-bottom: auto;
+    border-color: red;
+    border-style: dot-dash;
+    float: right;
+}
+
+table{
+    font-family: Times New Roman;
+    border-top-width: thin;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: hotpink;
+}
+
+tr:nth-child(even) {
+    background-color: olive;
+}
+
+footer{
+    background-color: lightyellow;
+    color: darkblue;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 0px;
+    margin-bottom: auto;
+    display: block;
 }
