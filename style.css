@@ -12,6 +12,11 @@ header{
     text-align: center;
 }
 
+h2{
+    color: gold;
+    font-style: italic;
+}
+
 #menu-list li a{
     display: block;
     color: white;
